@@ -33,3 +33,14 @@ Además aparecen repetidos para cada una de las siguientes opciones: el usuario,
 
 El valor octal puede utilizarse para representar combinaciones de permisos, por el ejemplo, si el usuario tiene permisos de lectura escritura y ejecución, el valor correspondiente es 7 (4 + 2 + 1).
 
+### **1. Crear directorios especificando permisos**
+-----------
+
+Cuando se crea un directorio con el mandato **mkdir**, éste asigna permisos por defecto.
+
+![Ejemplo creación directorio con permisos](imagenes/ejemplo_permisos_1.jpeg)
+
+En el ejemplo anterior se utiliza **mkdir test** para crear un directorio llamado test. Luego utilizamos **ls -l** para mostrar los permisos. Vemos que el directorio test tiene los permisos **rwxrwxr-x**, lo que representa lectura, escritura y ejecución para el usuario y el grupo, y de lectura y ejecución para el resto de usuario. En el sistema octal, sería el permiso 775.
+
+Al crear un directorio, podemos especificar los permisos que necesitamos realmente.
+
