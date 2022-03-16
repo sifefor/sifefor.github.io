@@ -44,7 +44,7 @@ En el ejemplo anterior se utiliza **mkdir test** para crear un directorio llamad
 
 Al crear un directorio, podemos especificar los permisos que necesitamos realmente.
 
-![Ejemplo creación directorio especificando permisos](imagenes/ejemplo_permisos_2.jpeg)
+![Ejemplo creación directorio especificando permisos](https://github.com/sifefor/sifefor.github.io/blob/master/images/ejemplo_permisos_2.jpeg)
 
 En el ejemplo anterior, vemos cómo se crea un directorio *test2* con la opción **-m** (para especificar permisos) y el valor 700 que representa: lectura, escritura, ejecución para el usuario (4 + 2 + 1), y no le da permisos ni al grupo, ni a los demás usuarios: **rwx--**
 
@@ -64,7 +64,7 @@ Vimos que en octal, esto es el valor 700.
 Si quisiéramos los siguientes permisos: rw-rr- el valor octal sería 644
 Teniendo esto en cuenta , aplicaríamos el comando chmod:
 
-![Ejemplo cambio permisos](imagenes/ejemplo_permisos_3.jpeg)
+![Ejemplo cambio permisos](https://github.com/sifefor/sifefor.github.io/blob/master/images/ejemplo_permisos_3.jpeg)
 
 Observamos que se escribe **chmod 644 test2**, y el resultado sería el deseado.
 
@@ -79,7 +79,7 @@ Si sólo necesitamos cambiar un permiso y que el resto de permisos permanezcan i
 
 Por ejemplo, si queremos sacar el permiso de ejecución al grupo en el directorio *test3*:
 
-![Ejemplo cambio un solo permiso](imagenes/ejemplo_permisos_4.jpeg)
+![Ejemplo cambio un solo permiso](https://github.com/sifefor/sifefor.github.io/blob/master/images/ejemplo_permisos_4.jpeg)
 
 Lo que se hizo fue ejecutar el pedido:
 
