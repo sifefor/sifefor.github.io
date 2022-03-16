@@ -9,7 +9,7 @@ Los permisos en Linux permiten compartir o restringir información y acceso a lo
 
 Si utilizamos el comando **ls -l** para ver los permisos de un archivo o directorio, un ejemplo sería:
 
-![Ejemplo de permisos en un archivo en Linux]('images/ejemplo_permisos.jpeg')
+![Ejemplo de permisos en un archivo en Linux](https://github.com/sifefor/sifefor.github.io/blob/master/images/ejemplo_permisos.jpeg)
 
 Observa el carácter señalado con la etiqueta "Tipo de archivo". Aquí pueden aparecer cualquiera de las siguientes opciones:
 
