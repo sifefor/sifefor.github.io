@@ -19,3 +19,17 @@ Observa el carácter señalado con la etiqueta "Tipo de archivo". Aquí pueden a
 * b --> dispositivo de bloques.
 * c --> conexiones locales.
 * p --> conexiones.
+
+
+A continuación aparecen los permisos marcados por las letras **rwx**. Cada letra tiene el siguiente significado y valor:
+
+| Código             | Permiso    | Valor Octal |  
+|-------------------|:-------------|---------------:|
+| r                 | lectura     | 4            | 
+| w                 | escritura   | 2            | 
+| x                 | ejecución   | 1            | 
+
+Además aparecen repetidos para cada una de las siguientes opciones: el usuario, el grupo y el resto de los usuarios. 
+
+El valor octal puede utilizarse para representar combinaciones de permisos, por el ejemplo, si el usuario tiene permisos de lectura escritura y ejecución, el valor correspondiente es 7 (4 + 2 + 1).
+
