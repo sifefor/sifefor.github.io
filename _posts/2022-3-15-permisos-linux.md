@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: Permisos en Linux
 ---
 
 # Gestión de permisos en Linux
