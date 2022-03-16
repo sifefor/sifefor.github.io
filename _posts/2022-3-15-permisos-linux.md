@@ -3,8 +3,19 @@ layout: post
 title: Gestión de permisos en Linux.
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+# Permisos en Linux
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Los permisos en Linux permiten compartir o restringir información y acceso a los recursos de nuestro sistema. Un mal manejo de permisos puede hacer que algo no funcione como debería.
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Si utilizamos el comando **ls -l** para ver los permisos de un archivo o directorio, un ejemplo sería:
+
+![Ejemplo de permisos en un archivo en Linux](imagenes/ejemplo_permisos.jpeg)
+
+Observa el carácter señalado con la etiqueta "Tipo de archivo". Aquí pueden aparecer cualquiera de las siguientes opciones:
+
+* d --> directorio.
+* l --> enlace simbólico.
+* c --> dispositivo de caracter.
+* b --> dispositivo de bloques.
+* c --> conexiones locales.
+* p --> conexiones.
