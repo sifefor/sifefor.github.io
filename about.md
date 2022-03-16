@@ -1,15 +1,15 @@
 ---
 layout: page
-title: About
+title: Sobre mi.
 permalink: /about/
 ---
 
-Some information about you!
+### ¿Quién soy?
 
-### More Information
+Simón, treinta y pico y en construcción.
 
-A place to include any other types of information that you'd like to include about yourself.
+### Contacto
 
-### Contact me
+Para cualquier duda existencial escríbeme a:
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:sifefor@icloud.com)
