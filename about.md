@@ -12,4 +12,4 @@ Simón, treinta y pico y en construcción.
 
 Para cualquier duda existencial escríbeme a:
 
-[email@domain.com](mailto:sifefor@icloud.com)
+[sifefor@icloud.com](mailto:sifefor@icloud.com)
