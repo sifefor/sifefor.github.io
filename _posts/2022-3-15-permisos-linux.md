@@ -38,7 +38,7 @@ El valor octal puede utilizarse para representar combinaciones de permisos, por 
 
 Cuando se crea un directorio con el mandato **mkdir**, éste asigna permisos por defecto.
 
-![Ejemplo creación directorio con permisos](imagenes/ejemplo_permisos_1.jpeg)
+![Ejemplo creación directorio con permisos](https://github.com/sifefor/sifefor.github.io/blob/master/images/ejemplo_permisos_1.jpeg)
 
 En el ejemplo anterior se utiliza **mkdir test** para crear un directorio llamado test. Luego utilizamos **ls -l** para mostrar los permisos. Vemos que el directorio test tiene los permisos **rwxrwxr-x**, lo que representa lectura, escritura y ejecución para el usuario y el grupo, y de lectura y ejecución para el resto de usuario. En el sistema octal, sería el permiso 775.
 
